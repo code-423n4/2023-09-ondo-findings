@@ -1,0 +1,2 @@
+https://github.com/code-423n4/2023-09-ondo/blob/7128c0853a226e51081e490ed3500e26613f61bd/contracts/external/chainalysis/ISanctionsList.sol#L1
+It's important to note that the use of the UNLICENSED SPDX-License-Identifier is a potential legal risk, as it means the code is proprietary and cannot be used without explicit permission from the author.
