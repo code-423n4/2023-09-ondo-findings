@@ -7,6 +7,7 @@
 | [GAS-1]   | Cache array length outside of loop     | 5           |
 | [GAS-2] | Don't initialize variables with default value         | 8        |
 | [GAS-3]    | Functions guaranteed to revert when called by normal users can be marked payable       | 12            |
+| [GAS-4]    | Double && operator more expensive than nested if loop      | 2            |
 
 ### [GAS-1] Cache array length outside of loop
 
@@ -127,3 +128,20 @@ File: DesinationBridge.sol
 322  function rescueTokens(address _token) external onlyOwner
 ```
 
+### [GAS-4] Double && operator more expensive than nested if loop
+
+Use a nested if loop as it is cheaper than using a double && Operator
+
+*Instances(2)*:
+
+```
+File: rUSDY.sol
+
+633    if (from != msg.sender && to != msg.sender)
+```
+
+```
+File: RWADynamicOracle.sol
+
+201      if (rangeLength > 1 && newEnd > ranges[indexToModify + 1].start)
+```
