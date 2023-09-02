@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "n1punp",
+  "risk": "2",
+  "title": "Token transfers will leave dust amounts and shares, when the oracle price updates. (cannot transfer all balance effectively). In extreme cases, the tx could revert if the oracle price is lower.",
+  "issueId": 14,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/14"
+}
