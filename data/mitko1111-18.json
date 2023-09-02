@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "mitko1111",
+  "risk": "3",
+  "title": "STORAGE COLLISION BETWEEN PROXY AND IMPLEMENTATION (LACK EIP 1967)",
+  "issueId": 18,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/18"
+}
