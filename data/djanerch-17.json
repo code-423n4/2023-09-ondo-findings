@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "djanerch",
+  "risk": "2",
+  "title": "The issue involves a lack of validation on the owner address during contract deployment in the constructor of the SourceBridge smart contract. This means that anyone can deploy the contract and potentially become the owner, which can lead to unauthorized access and control over critical contract functions.",
+  "issueId": 17,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/17"
+}
