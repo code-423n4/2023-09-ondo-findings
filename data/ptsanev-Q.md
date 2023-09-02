@@ -1,0 +1,1 @@
+[L-01] - rUSDY contract is susceptible to the ``approve`` race condition, consider internally calling the ``increaseAllowance()`` and ``decreaseAllowance()`` inside of the internal ``_approve``, to avoid independent usage of ``approve()``
