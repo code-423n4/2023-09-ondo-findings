@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xWaitress",
+  "risk": "2",
+  "title": "overrideRange can modify newStart which make the newStart not the same as the lastEnd, this changes the derivePrice behavior",
+  "issueId": 13,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/13"
+}
