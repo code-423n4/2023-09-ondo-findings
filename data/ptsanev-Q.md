@@ -1,2 +1,3 @@
 [L-01] - rUSDY contract is susceptible to the ``approve`` race condition, consider internally calling the ``increaseAllowance()`` and ``decreaseAllowance()`` inside of the internal ``_approve``, to avoid independent usage of ``approve()``
-[L-02] - instead of calculating ``ranges[(length - 1) - i]`` to get the last member of the array just change the loop to ``for (uint256 i = length - 1; i >= 0; --i)`` 
+[L-02] - instead of calculating ``ranges[(length - 1) - i]`` to get the last member of the array just change the loop to ``for (uint256 i = length - 1; i >= 0; --i)``
+[L-03] - make use of the ERC165 to make sure the new contract addresses during a change support the needed interface to avoid mistakes. E.g ``setDestinationChainContractAddress()`` needs to set the address of a contract supporting the AxelarExecutable 
