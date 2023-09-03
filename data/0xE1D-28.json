@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xE1D",
+  "risk": "2",
+  "title": "Missing checks for address(0) when deploying SourceBridge.sol",
+  "issueId": 28,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/28"
+}
