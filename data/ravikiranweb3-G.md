@@ -1,0 +1,1 @@
+SourceBridge::burnAndCallAxelar does not validate the amount being sent. Potentially, the amount could be 0 leading to spending gas. Since this is public function, it is best to have a validation for amount.
