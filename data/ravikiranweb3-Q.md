@@ -4,5 +4,9 @@ a) DestinationBridge.sol
 b) DestinationBridge.sol
    addApprover and removeApprover parameters should be checked for non-zero address.
 
-c)  
+c) DestinationBridge.sol
    addChainSupport srcContractAddress should be checked for non-zero address
+
+d) DestinationBridge.sol
+   Incase AxelarExecutable contract calls _execute twice, the destination bridge contract does not take 
+  the necessary precaution to prevent it. The transaction will revert as _approve will fail.
