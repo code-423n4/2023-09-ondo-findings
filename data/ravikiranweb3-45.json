@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "ravikiranweb3",
+  "risk": "3",
+  "title": "Because of DerivePrice logic, the protocol will not sense stale prices effecting the protocol and users economically",
+  "issueId": 45,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/45"
+}
