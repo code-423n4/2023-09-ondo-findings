@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "degensec",
+  "risk": "2",
+  "title": "Bridged tokens are permanently lost if the corresponding call on the destination chain reverts",
+  "issueId": 53,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/53"
+}
