@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xE1D",
+  "risk": "2",
+  "title": "deployrUSDY initialisation is not checked for address(0)",
+  "issueId": 47,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/47"
+}
