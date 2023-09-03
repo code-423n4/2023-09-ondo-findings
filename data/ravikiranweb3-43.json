@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "ravikiranweb3",
+  "risk": "3",
+  "title": "Simulate Range is also prone to DOS as it operates on an ever growing array",
+  "issueId": 43,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/43"
+}
