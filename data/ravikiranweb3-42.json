@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "ravikiranweb3",
+  "risk": "3",
+  "title": "getPrice function for RWADynamicOrcale is prone to DOS",
+  "issueId": 42,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/42"
+}
