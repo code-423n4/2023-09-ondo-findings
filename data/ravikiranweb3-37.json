@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "ravikiranweb3",
+  "risk": "2",
+  "title": "Return value for transfer function is ignored",
+  "issueId": 37,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/37"
+}
