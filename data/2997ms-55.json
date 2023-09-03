@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "2997ms",
+  "risk": "2",
+  "title": "ERC20 Tokens with Different Decimals to 1e18 lead to Inaccurate Price Feed",
+  "issueId": 55,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/55"
+}
