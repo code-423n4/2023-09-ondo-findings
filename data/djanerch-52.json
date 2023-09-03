@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "djanerch",
+  "risk": "2",
+  "title": "The functions `increaseAllowance` and `decreaseAllowance` lack proper access control, potentially enabling unauthorized parties to modify allowances, which poses security risks.",
+  "issueId": 52,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/52"
+}
