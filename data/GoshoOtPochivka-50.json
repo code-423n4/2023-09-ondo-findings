@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "GoshoOtPochivka",
+  "risk": "3",
+  "title": "SourceBridge.sol#burnAndCallAxelar() - If the call to DestinationBridge.sol reverts, the user will lose funds as there is no refund mechanism.",
+  "issueId": 50,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/50"
+}
