@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "ravikiranweb3",
+  "risk": "2",
+  "title": "Guardian has all the roles in rUSDY, this fails the principal of separation of privilege and defeats the purpose of creating different roles",
+  "issueId": 80,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/80"
+}
