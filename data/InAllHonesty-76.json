@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "InAllHonesty",
+  "risk": "2",
+  "title": "`removeApprover` can be frontrun",
+  "issueId": 76,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/76"
+}
