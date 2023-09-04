@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "GoshoOtPochivka",
+  "risk": "3",
+  "title": "DestinationBridge.sol Can't mint token because of lack of MINTING_ROLE ",
+  "issueId": 93,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/93"
+}
