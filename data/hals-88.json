@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "hals",
+  "risk": "2",
+  "title": "`DestinationBridge` contract: transactions can be executed even if the contract is paused",
+  "issueId": 88,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/88"
+}
