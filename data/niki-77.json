@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "niki",
+  "risk": "2",
+  "title": "the `unpause` function can be only unpaused by the owner of the protocol, but it should be allowed to the pauser Role to unpause the protocol",
+  "issueId": 77,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/77"
+}
