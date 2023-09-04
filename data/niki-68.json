@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "niki",
+  "risk": "2",
+  "title": "There is a check if the msg.value is equal to 0, but it the msg.value is 1 it is still low",
+  "issueId": 68,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/68"
+}
