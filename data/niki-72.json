@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "niki",
+  "risk": "2",
+  "title": "A User can front run the `decreaseAllowance()`",
+  "issueId": 72,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/72"
+}
