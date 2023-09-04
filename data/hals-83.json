@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "hals",
+  "risk": "3",
+  "title": "`DestinationBridge` contract: users will lose their bridged tokens if the approved contract address of the source chain is changed or removed",
+  "issueId": 83,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/83"
+}
