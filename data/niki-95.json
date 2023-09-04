@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "niki",
+  "risk": "3",
+  "title": "If the burner and the owner each of them calls the `burn` function, it will burn twice the amount of the user and the price of usdy will be wrong",
+  "issueId": 95,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/95"
+}
