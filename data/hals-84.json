@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "hals",
+  "risk": "3",
+  "title": "`DestinationBridge::setThresholds` : the number of approvers threshold can be greater than the number of availble approvers",
+  "issueId": 84,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/84"
+}
