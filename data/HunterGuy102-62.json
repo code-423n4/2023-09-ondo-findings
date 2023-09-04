@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "HunterGuy102",
+  "risk": "2",
+  "title": "Missing zero address check can set guardian to zero address",
+  "issueId": 62,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/62"
+}
