@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "niki",
+  "risk": "2",
+  "title": "The owner can call multiexcall and grief the contract with removing all of the gas of the call transaction",
+  "issueId": 66,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/66"
+}
