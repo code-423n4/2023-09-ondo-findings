@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "hals",
+  "risk": "3",
+  "title": "`DestinationBridge` contract: non approved approver can give the transaction the first approval",
+  "issueId": 86,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/86"
+}
