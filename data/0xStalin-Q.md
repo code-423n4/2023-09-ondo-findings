@@ -1,0 +1,3 @@
+//@low-sev => Number of approvers can be set to be greather than the existing approvers in the DestinatinationBridge contract
+        //@IMPACT => Setting the number of required approvers greather than the total number of approvers will cause that tx never reaches the approved status until new approvers are added to the DestinationBridge contract.
+        //@audit-recommendation => Keep track of the total numbers of approvers, and when setting thresholds validate if the number of required approvers is greather than the total approvers, if so, either revert the tx, set the number of required approvers as the total number of approvers or emit an event to notify off-chain that will be required to add more approvers to the DestinationBridge
