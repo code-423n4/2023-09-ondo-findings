@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "hals",
+  "risk": "3",
+  "title": "`rUSDY::burn` function: USDY tokens are refunded to the wrong address",
+  "issueId": 85,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/85"
+}
