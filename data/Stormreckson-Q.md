@@ -312,3 +312,11 @@ Implementation Approach:
 
 Conclusion:
    Implementing a contract tracking mechanism through the suggested approach will greatly contribute to comprehensive contract management. It enhances visibility, simplifies auditing, and enables smooth interactions with deployed contracts. By adopting this best practice, the development team can streamline contract maintenance, promote efficient upgrades, and ensure compliance with regulatory requirements.
+
+8-https://github.com/code-423n4/2023-09-ondo/blob/47d34d6d4a5303af5f46e907ac2292e6a7745f6c/contracts/bridge/SourceBridge.sol#L105-L10
+```
+    AXELAR_GATEWAY.callContract(destinationChain, destContract, payload);
+```
+The return value of `AXELAR_GATEWAY` isn't checked 
+
+In the `_payGasAndCallContract` function, after `AXELAR_GATEWAY.callContract` is called, it would be wise to verify the return value or add a mechanism to handle potential failures. Failing to handle errors during the contract call might result in unexpected behavior. Consider implementing appropriate error handling or validation for the return value.
