@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "niloy",
+  "risk": "3",
+  "title": "Race Condition Allows Front-Running Guardian Role",
+  "issueId": 160,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/160"
+}
