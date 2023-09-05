@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "erebus",
+  "risk": "3",
+  "title": "Cross-chain token transfer can revert on destination chain and burned tokens will be lost",
+  "issueId": 145,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/145"
+}
