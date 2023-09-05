@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "bowtiedvirus",
+  "risk": "2",
+  "title": "Users can send 0 tokens to SourceBridge resulting in a revert on DestinationBridge and wasted gas",
+  "issueId": 110,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/110"
+}
