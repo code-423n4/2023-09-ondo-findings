@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xpiken",
+  "risk": "3",
+  "title": "User may lose their asset if they bridge same `amount` of tokens from different source chains to one destination chain.",
+  "issueId": 125,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/125"
+}
