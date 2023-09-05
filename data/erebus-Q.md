@@ -1,0 +1,3 @@
+# Low
+## [L-01] Wrong calculations
+In [rUSDY#L586-L592](https://github.com/code-423n4/2023-09-ondo/blob/47d34d6d4a5303af5f46e907ac2292e6a7745f6c/contracts/usdy/rUSDY.sol#L586C1-L592C69), `preRebaseTokenAmount` and `postRebaseTokenAmount` does equal to the same thing, as `getRUSDYByShares` does not rely on any variable that is modified between such statements. I'm putting it as a low because I'm not sure about it but it does smells fishy.
