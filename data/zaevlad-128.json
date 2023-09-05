@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "zaevlad",
+  "risk": "2",
+  "title": "rUSDY approve() function can be frontruned to exceed the user allowance",
+  "issueId": 128,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/128"
+}
