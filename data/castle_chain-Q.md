@@ -221,8 +221,29 @@ the functions `_mintShares()` and `_burnShares()` return the `totalShares` as re
 https://github.com/code-423n4/2023-09-ondo/blob/47d34d6d4a5303af5f46e907ac2292e6a7745f6c/contracts/usdy/rUSDY.sol#L543-L555
 
 https://github.com/code-423n4/2023-09-ondo/blob/47d34d6d4a5303af5f46e907ac2292e6a7745f6c/contracts/usdy/rUSDY.sol#L575-L601
+## 5) unused arguments of function `_beforeTokenTransfer()` can be removed . 
+```diff
+  function _beforeTokenTransfer(
+    address from,
+    address to,
+-   uint256
+  ) internal view {
+    // Check constraints when `transferFrom` is called to facliitate
+    // a transfer between two parties that are not `from` or `to`.
+    if (from != msg.sender && to != msg.sender) {
+      require(!_isBlocked(msg.sender), "rUSDY: 'sender' address blocked");
+      require(!_isSanctioned(msg.sender), "rUSDY: 'sender' address sanctioned");
+      require(
+        _isAllowed(msg.sender),
+        "rUSDY: 'sender' address not on allowlist"
+      );
+    }
+```
 
-## 5) avoid shadowing the state variable by change the names of the parameters and and "_" prefix the name 
+**code snippet**
+https://github.com/code-423n4/2023-09-ondo/blob/47d34d6d4a5303af5f46e907ac2292e6a7745f6c/contracts/usdy/rUSDY.sol#L629
+
+## 6) avoid shadowing the state variable by change the names of the parameters and and "_" prefix the name 
 
 **code snippet**
 https://github.com/code-423n4/2023-09-ondo/blob/47d34d6d4a5303af5f46e907ac2292e6a7745f6c/contracts/usdy/rUSDY.sol#L109-L118
