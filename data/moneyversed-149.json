@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "moneyversed",
+  "risk": "3",
+  "title": "Unauthorized token minting via insufficient approval verification can lead to multiple collision of multiple `txnHash` and bypass of the `_mintIfThresholdMet` mechanism ",
+  "issueId": 149,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/149"
+}
