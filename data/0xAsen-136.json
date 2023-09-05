@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xAsen",
+  "risk": "2",
+  "title": "Admin can't burn tokens from blocklisted addresses because of a check in _beforeTokenTransfer ",
+  "issueId": 136,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/136"
+}
