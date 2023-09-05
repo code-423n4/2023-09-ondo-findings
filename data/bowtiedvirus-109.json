@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "bowtiedvirus",
+  "risk": "3",
+  "title": "A Hash Collision in DestinationBridge Can Permanently Destroy User Tokens ",
+  "issueId": 109,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/109"
+}
