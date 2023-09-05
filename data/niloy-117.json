@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "niloy",
+  "risk": "3",
+  "title": "Invalid Ranges Can Be Set at `RWADynamicOracle.sol` contract's `setRange()` function",
+  "issueId": 117,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/117"
+}
