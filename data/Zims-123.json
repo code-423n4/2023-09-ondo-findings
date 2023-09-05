@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Zims",
+  "risk": "2",
+  "title": "The return value of an external transfer call is not checked",
+  "issueId": 123,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/123"
+}
