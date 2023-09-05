@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "niloy",
+  "risk": "2",
+  "title": "Invalid Burn Amount in `rUSDY.sol` contract Corrupts Total Shares",
+  "issueId": 114,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/114"
+}
