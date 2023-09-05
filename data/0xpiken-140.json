@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xpiken",
+  "risk": "2",
+  "title": "Bridging function could be reverted for a while with unclear reason due to underflow when mintLimit is updated.",
+  "issueId": 140,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/140"
+}
