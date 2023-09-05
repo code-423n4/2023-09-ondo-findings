@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "BenRai",
+  "risk": "2",
+  "title": "When calling `SourceBridge.burnAndCallAxelar()` users might pay more gas than necessary ",
+  "issueId": 118,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/118"
+}
