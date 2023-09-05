@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "niloy",
+  "risk": "3",
+  "title": "Skipping Zero Validation on `wrap()` Opens Unlimited Minting",
+  "issueId": 112,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/112"
+}
