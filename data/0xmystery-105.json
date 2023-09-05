@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xmystery",
+  "risk": "2",
+  "title": "Misconfiguration in DestinationBridge.setThresholds could lead to Exploitation of the Minting Rate Limiter",
+  "issueId": 105,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/105"
+}
