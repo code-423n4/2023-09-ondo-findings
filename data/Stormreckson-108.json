@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Stormreckson",
+  "risk": "2",
+  "title": "no explicit validation to ensure that the `destContract` is valid",
+  "issueId": 108,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/108"
+}
