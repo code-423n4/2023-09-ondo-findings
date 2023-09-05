@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "BenRai",
+  "risk": "3",
+  "title": "rUSDY Funds from blacklisted or sanctioned accounts can not be burned when calling `rUSDY.burn()`",
+  "issueId": 120,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/120"
+}
