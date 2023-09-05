@@ -1,0 +1,3 @@
+Into the "Manage your liquidity accordingly" part;
+
+"On the other end of the spectrum (though still within the cash management regime), investments in short-term US Treasury bonds and short-term investment grade corporate bonds generate significantly more yield than stablecoins but typically require a few days to get According to the "your cash," section, it should be noted that the equivalent of USDY does not exactly correspond to 1 US dollar (or to be more precise, "1 dollar is determined as 0.88867 grams of gold according to the Bretton Woods Agreement, but USDY does not fall under this definition." ) will further strengthen Ondo Finance's hand on the risk factor in investing in this stablecoin.
