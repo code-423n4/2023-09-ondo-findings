@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Stormreckson",
+  "risk": "3",
+  "title": "No validation for the `VERSION` in the payload",
+  "issueId": 106,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/106"
+}
