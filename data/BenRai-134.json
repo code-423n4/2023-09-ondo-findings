@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "BenRai",
+  "risk": "3",
+  "title": "The mint limit in `DestinationBridge.sol` can be bypassed by minting close before and after the updating time of the limit",
+  "issueId": 134,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/134"
+}
