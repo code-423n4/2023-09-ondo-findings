@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "castle_chain",
+  "risk": "3",
+  "title": "minting tokens on the destination chain is possible when the bridge is paused ",
+  "issueId": 189,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/189"
+}
