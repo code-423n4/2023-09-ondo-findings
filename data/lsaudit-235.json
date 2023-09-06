@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "lsaudit",
+  "risk": "2",
+  "title": "Added supported chains cannot be removed",
+  "issueId": 235,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/235"
+}
