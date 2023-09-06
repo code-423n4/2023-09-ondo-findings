@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "BenRai",
+  "risk": "3",
+  "title": "rUSDY can lose its pag of 1 USD because it is not possible to set a negative `dailyInterestRate` in `RWADynamicOracle.sol`",
+  "issueId": 181,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/181"
+}
