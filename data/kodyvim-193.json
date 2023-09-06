@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "kodyvim",
+  "risk": "2",
+  "title": "`setThresholds` does not validate if new threshold exceeds number of available approvers.",
+  "issueId": 193,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/193"
+}
