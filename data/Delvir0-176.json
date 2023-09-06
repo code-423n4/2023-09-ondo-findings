@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Delvir0",
+  "risk": "2",
+  "title": "Admin burn function in rUSDY.sol will be unavailable when user is blocklisted",
+  "issueId": 176,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/176"
+}
