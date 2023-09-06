@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xpiken",
+  "risk": "3",
+  "title": "The price fed from RWADynamicOracle could be inaccurate because of wrong range setup",
+  "issueId": 192,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/192"
+}
