@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "lsaudit",
+  "risk": "2",
+  "title": "Ability to execute crucial onlyOwner operations on a paused `DestinationBridge` and `SourceBridge`",
+  "issueId": 233,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/233"
+}
