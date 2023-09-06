@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "castle_chain",
+  "risk": "2",
+  "title": "allow setting and attaching thresholds to amount of tokens that exceeds the mint limit will prevent the user from minting his tokens on the destination chain   ",
+  "issueId": 190,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/190"
+}
