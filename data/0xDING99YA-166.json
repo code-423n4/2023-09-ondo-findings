@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xDING99YA",
+  "risk": "2",
+  "title": "simulateRange() can revert due to out of gas",
+  "issueId": 166,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/166"
+}
