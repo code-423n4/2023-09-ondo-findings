@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "lsaudit",
+  "risk": "2",
+  "title": "Ability to execute crucial operations on a paused `rUSDY` contract",
+  "issueId": 231,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/231"
+}
