@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "castle_chain",
+  "risk": "3",
+  "title": "Exponential Price Decrease could happen  in RWADynamicOracle Contract which will breakdown the accruing mechanism of rUSDY .",
+  "issueId": 194,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/194"
+}
