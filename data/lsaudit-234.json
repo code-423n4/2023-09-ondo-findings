@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "lsaudit",
+  "risk": "2",
+  "title": "`rUSDY` implements `approve`, which is prone to front-running attacks",
+  "issueId": 234,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/234"
+}
