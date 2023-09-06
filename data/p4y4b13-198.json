@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "p4y4b13",
+  "risk": "3",
+  "title": "Loss of rUSDY while calling burn() function by owner",
+  "issueId": 198,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/198"
+}
