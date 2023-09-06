@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "supersizer0x",
+  "risk": "3",
+  "title": "`unwrap->getSharesByRUSDY()` is cofigured by the price,so if an enexpected action happens,then it can lead to reverts ",
+  "issueId": 213,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/213"
+}
