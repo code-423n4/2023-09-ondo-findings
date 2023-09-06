@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "lsaudit",
+  "risk": "3",
+  "title": "Tokens transferred with Axelar may get lost when destination transaction cannot be executed",
+  "issueId": 229,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/229"
+}
