@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Shawon",
+  "risk": "2",
+  "title": "L276-L64 of rUSDY.sol is prone to  race condition",
+  "issueId": 173,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/173"
+}
