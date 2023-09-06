@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xDING99YA",
+  "risk": "2",
+  "title": "Under current price implementation, the last day for a range will always use the interest from next range instead of its own interest.",
+  "issueId": 165,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/165"
+}
