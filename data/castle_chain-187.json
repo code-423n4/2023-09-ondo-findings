@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "castle_chain",
+  "risk": "3",
+  "title": "a malicious validator can mint tokens on the destination chain without burning the tokens on the source chain by exploiting the `execute` and `_approve` functions ",
+  "issueId": 187,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/187"
+}
