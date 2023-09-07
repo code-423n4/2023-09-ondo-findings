@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xpiken",
+  "risk": "2",
+  "title": "User may suffer USDY loss when unwrap rUSDY due to inaccurate burning. ",
+  "issueId": 317,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/317"
+}
