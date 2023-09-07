@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "alymurtazamemon",
+  "risk": "3",
+  "title": "Unprotected `initialize` functions can front-run by MEV or by an Attacker.",
+  "issueId": 347,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/347"
+}
