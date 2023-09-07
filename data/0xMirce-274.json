@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xMirce",
+  "risk": "2",
+  "title": "The last element of the array `amounts` parameter in the `setThresholds` function should be `type(uint256).max`",
+  "issueId": 274,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/274"
+}
