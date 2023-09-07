@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "adriro",
+  "risk": "2",
+  "title": "Overriding ranges in oracle may lead to gaps",
+  "issueId": 448,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/448"
+}
