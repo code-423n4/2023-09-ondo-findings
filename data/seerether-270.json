@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "The burn function in rUSDY allows the caller to benefit by transferring the burned shares to themselves rather than burning them.",
+  "issueId": 270,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/270"
+}
