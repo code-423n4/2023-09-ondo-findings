@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "alymurtazamemon",
+  "risk": "2",
+  "title": "DOS - `transfer` and `transferFrom` functions of `rUSDY` contract can stop working temporary.",
+  "issueId": 402,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/402"
+}
