@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "SUPERMAN_I4G",
+  "risk": "3",
+  "title": "High Vulnerability in SourceBridge Contract: Loss of Tokens on Failed Destination Chain Calls",
+  "issueId": 336,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/336"
+}
