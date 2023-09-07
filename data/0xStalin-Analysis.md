@@ -1,4 +1,4 @@
-# Analysis of the TapiocaDAO Contest
+# Analysis of the Ondo Finance Contest
 
 # Introduction
 - The Ondo Finance protocol is introducing a rebasing token for their existing yielding token USDY.
@@ -32,12 +32,16 @@
 ## Recommendations
 - Based on the issues I caught on the codebase I'd recommend the protocol/devs to keep in mind that in most of the blockchains, the tx are not executed as they are sent, which opens up the doors to frontrun some tx that could end up affecting other transactions, this could lead to undesired results such as users gainning more allowance or preventing the burning of their tokens if the protocol has decided to seize their USDY tokens for any reason.
 
+- A think that it might be worth to consider is about how to mitigate edge cases such as what to do when messages fails while they are processed in the Axelar Network. Once a message is sent to the Axelar Network, the user's USDY tokens have already been burnt on the Source Chain, so, if by any reason the message is not posted on the Destination Chain, the user will lost their USDY tokens in the Source Chain because the existing implementation have no means to confirm that the tokens were indeed minted in the Destination Chain
+
 - Yes, the codebase is quite centralized, but that is by design since Ondo is an institutional-grade finance tokenizing short-term US Treasuries and bank demand deposits, I believe the relationship between the protocol and their users will be bounded by a lot of legal paper work, thus, Ondo protocol may not be incentivized to abuse the privileges they have over the code.
 
 - A personal recommendation would be to incentivize the protocol to explore how could they make more decentralize and autonomous their codebase, take a look at existing decentralized solutions that pulls data from the real world into the blockchain (chainlink is currently the leader on this field).
 
 # Time Spent on the Audit
 - I spent around 5 days on this audit, each day I put in around 7-10 hours of work. In total that would be around 40 - 50 hours.
+
+
 
 ### Time spent:
 50 hours
