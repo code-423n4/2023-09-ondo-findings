@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "PetarTolev",
+  "risk": "2",
+  "title": "Potential getPrice Overflow in RWADynamicOracle due to Unbounded ranges Array",
+  "issueId": 266,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/266"
+}
