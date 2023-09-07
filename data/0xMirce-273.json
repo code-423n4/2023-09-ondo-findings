@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xMirce",
+  "risk": "2",
+  "title": "Missing parameter validation in `setThresholds` function of the `DestinationBridge` contract",
+  "issueId": 273,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/273"
+}
