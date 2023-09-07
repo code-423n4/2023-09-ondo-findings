@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xMirce",
+  "risk": "2",
+  "title": "Unlimited minting of rUSDY tokens because of reentrancy in the `wrap()` function",
+  "issueId": 271,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/271"
+}
