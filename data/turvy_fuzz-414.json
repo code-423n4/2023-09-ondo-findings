@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "turvy_fuzz",
+  "risk": "3",
+  "title": "Stealing extra mint fund by applying reentrancy attack on _execute with calling approve() again due to external call before crucial state update",
+  "issueId": 414,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/414"
+}
