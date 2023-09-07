@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Cosine",
+  "risk": "3",
+  "title": "Reorgs could revert the setRange function and lead to a long lasting stale price of USDY",
+  "issueId": 411,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/411"
+}
