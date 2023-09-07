@@ -103,8 +103,60 @@ Systemic risks on Ondo Finance, there are certain aspects that may introduce sys
 - **Blocklist, Allowlist, and Sanctions List:** Improper management of these lists could lead to systemic risks. For instance, if a critical address is mistakenly added to the blocklist, it could disrupt the system's operations.
 
 
+## Architecture Recommendations 
+
+**Decentralize Privileged Functions:**
+
+     - Implement multi-signature or decentralized governance to reduce centralization risks.
+
+**Granular Access Control:**
+
+     - Utilize role-based access control for finer control over contract functionalities.
+
+**Consider Decentralized Oracles:**
+
+     - Evaluate options for decentralized oracles to enhance security and reliability.
+
+**Modular Codebase:**
+
+    - Organize functionalities into smaller, composable components for better maintainability.
+
+**Emergency Measures:**
+
+    - Establish clear recovery procedures for unforeseen circumstances.
+
+**Automated Testing and Auditing:**
+
+    - Implement continuous monitoring for vulnerabilities and engage in regular security audits.
 
 
+**Provide User Education:**
+
+    - Offer clear materials to help users understand system functions and risks.
+
+**Follow Security Best Practices:**
+
+    - Adhere to Ethereum and smart contract security standards.
+
+**Emergency Response Plan:**
+
+    - Develop a detailed plan for handling security incidents.
+
+
+
+## Approach taken in evaluating the codebase
+
+In approaching the evaluation of the Ondo Finance codebase, I followed a systematic process to ensure a comprehensive assessment of the project's security, functionality, and overall quality. Here's an example of my approach:
+
+I began by thoroughly reviewing the provided documentation for the audit. The documentation proved to be a valuable resource in gaining a foundational understanding of the core workings of the Ondo Finance protocol. It provided insights into key concepts such as rUSDY, USDY, the price oracle, and the bridging mechanisms.
+
+Next, I delved into the codebase, starting with the rUSDY-related contracts. This included an in-depth analysis of rUSDY.sol, rUSDYFactory.sol, RWADynamicOracle.sol, SourceBridge.sol, and DestinationBridge.sol. By dissecting their logic and interactions, I gained a clearer picture of how these contracts collectively form the backbone of the Ondo Finance ecosystem.
+
+As I progressed through the codebase, I paid special attention to critical functions that involved token transfers, access control, and privileged roles. This allowed me to evaluate potential security risks and centralization concerns.
+
+Additionally, I focused on ensuring adherence to Ethereum and smart contract security auditing standards. This involved meticulous checks for proper input validation, safe external calls, and secure access control implementations.
+
+Throughout the audit process, I maintained open lines of communication with the project team. This facilitated a smooth exchange of information and provided an opportunity to address any queries or seek clarifications on specific functionalities
 
 
 
@@ -116,6 +168,8 @@ Systemic risks on Ondo Finance, there are certain aspects that may introduce sys
 
 
  Contracts have well-structured code with clear explanations in comments. They are designed to work together as part of a cross-chain token bridge system. The contracts utilize access control, pausing, and rate limiting mechanisms to ensure secure and controlled operation. Additionally, the contracts emit events to provide transparency and traceability of transactions. However, to provide a complete and accurate review, the actual implementation of the interfaces (IRWALike, IAxelarGateway, IAxelarGasService, IMulticall, IRWALike, IAllowlist) and any missing parts (such as RWADynamicOracle) would need to be reviewed as well.
+
+
 
 
 ### Time spent:
