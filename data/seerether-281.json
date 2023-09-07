@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "Vulnerability in the setRange() function where invalid ranges could be set that overlap or go backwards in time",
+  "issueId": 281,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/281"
+}
