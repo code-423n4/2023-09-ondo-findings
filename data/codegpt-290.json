@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "codegpt",
+  "risk": "3",
+  "title": "Wrap function should not be minting shares",
+  "issueId": 290,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/290"
+}
