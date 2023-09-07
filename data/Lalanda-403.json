@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Lalanda",
+  "risk": "2",
+  "title": "Bridge large amount of tokens, bigger than largest threshold or mint limit, will get tokens burnt but will receive no tokens on destination bridge",
+  "issueId": 403,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/403"
+}
