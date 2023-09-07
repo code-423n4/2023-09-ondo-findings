@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "qpzm",
+  "risk": "2",
+  "title": "Every user's rUSDY balance can be changed suddenly by updating `RWADynamicOracle.ranges` before `block.timestamp`",
+  "issueId": 484,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/484"
+}
