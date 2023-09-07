@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "ItsNio",
+  "risk": "2",
+  "title": " `simulateRange()` allows `startTime` < `firstRangeStart` in the queried range",
+  "issueId": 455,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/455"
+}
