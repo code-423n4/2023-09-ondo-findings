@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "gkrastenov",
+  "risk": "2",
+  "title": "Removing an already added src/dest contract address is not possible",
+  "issueId": 467,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/467"
+}
