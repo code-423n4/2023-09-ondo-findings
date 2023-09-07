@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "catellatech",
+  "risk": "2",
+  "title": "In `DestinationBridge:rescueTokens` function the owner can steal user tokens",
+  "issueId": 503,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/503"
+}
