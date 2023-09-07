@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Inspecktor",
+  "risk": "2",
+  "title": "No removal mechanism from blocklist, allowlist and sanctionsList",
+  "issueId": 482,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/482"
+}
