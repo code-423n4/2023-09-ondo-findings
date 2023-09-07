@@ -12,7 +12,7 @@
 - Avoid copying the full array of `Treshold` struct to memory while reading `chainToThresholds[srcChain]` in `_attachThreshold()` function. Alias the variable to `storage` instead.  
   https://github.com/code-423n4/2023-09-ondo/blob/main/contracts/bridge/DestinationBridge.sol#L135
   
-- Improve storage of approvers by using a mapping instead of an array. Currently the array of approvers needs to traverse each time an approver grants approval to check for duplicate entries. By using a mapping, the same operation can be done in O(1).
+- Improve storage of approvers by using a mapping instead of an array. Currently the array of approvers needs to traverse each time an approver grants approval to check for duplicate entries. By using a mapping, the same operation can be done in O(1).  
   https://github.com/code-423n4/2023-09-ondo/blob/main/contracts/bridge/DestinationBridge.sol#L160-L164  
   
 - Avoid copying the `TxnThreshold` struct to memory while reading `txnToThresholdSet[txnHash]` in `_checkThresholdMet()` function. Alias the variable to `storage` instead.  
