@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "The pausing relies on the contract being immutable. If PAUSER_ROLE were changed while paused, it may not be unpausable.",
+  "issueId": 286,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/286"
+}
