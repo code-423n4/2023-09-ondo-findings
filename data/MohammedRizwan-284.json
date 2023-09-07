@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "MohammedRizwan",
+  "risk": "2",
+  "title": "In `rUSDYFactory.sol`, `create` methods are suspicious of the reorg attack",
+  "issueId": 284,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/284"
+}
