@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Inspecktor",
+  "risk": "2",
+  "title": "Incorrect calculation of totalSupply(), balanceOf() in rUSDY.sol if the rate is unlinked from $1",
+  "issueId": 481,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/481"
+}
