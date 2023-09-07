@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "ak1",
+  "risk": "3",
+  "title": "rUSDY.sol#L434-L440 : Incorrect rUSDY value is emitted during wrap.",
+  "issueId": 400,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/400"
+}
