@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Team-Slayer",
+  "risk": "3",
+  "title": "Vulnerability: Token Bridge with Axelar can get Loss if the Transation in the Destination Chain can't be Executed. / Contract: DestinationBridge.sol / Function: _execute",
+  "issueId": 252,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/252"
+}
