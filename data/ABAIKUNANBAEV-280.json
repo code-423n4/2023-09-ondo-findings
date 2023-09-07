@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "ABAIKUNANBAEV",
+  "risk": "2",
+  "title": "The users can spam the system when transferring shares as there is no check on whether _sharesAmount > 0",
+  "issueId": 280,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/280"
+}
