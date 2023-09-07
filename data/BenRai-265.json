@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "BenRai",
+  "risk": "2",
+  "title": "`rUSDY. decreaseAllowance()` should set allowance to 0 if the amount it should decrease it by is higher than the current allowance",
+  "issueId": 265,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/265"
+}
