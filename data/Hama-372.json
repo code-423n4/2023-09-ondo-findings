@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Hama",
+  "risk": "3",
+  "title": "Admin can steal all funds from user via arbitrary execution",
+  "issueId": 372,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/372"
+}
