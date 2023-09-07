@@ -76,8 +76,17 @@ As denoted in the [Moralis academy article](https://academy.moralis.io/blog/what
 
 "... If a node receives a new chain that’s longer than its current active chain of blocks, it will do a chain reorg to adopt the new chain, regardless of how long it is."
 
-Depending on the outcome, if it ended up placing the transaction earlier than anticipated, quite a number of the function calls could backfire. For instance, a user calling `rUSDY.unwrap()` could end up [burning more shares](https://github.com/code-423n4/2023-09-ondo/blob/main/contracts/usdy/rUSDY.sol#L451) than anticipated due to a lower [`USDY` price](https://github.com/code-423n4/2023-09-ondo/blob/main/contracts/usdy/rUSDY.sol#L391) entailed.
+Depending on the outcome, if it ended up placing the transaction earlier than anticipated, quite a number of the function calls could backfire. For instance, a user calling `rUSDY.transfer()` could end up [transferring more shares](https://github.com/code-423n4/2023-09-ondo/blob/main/contracts/usdy/rUSDY.sol#L451) than anticipated due to a lower `USDY` price entailed.
 
+https://github.com/code-423n4/2023-09-ondo/blob/main/contracts/usdy/rUSDY.sol#L388-L392
+
+```solidity
+  function getSharesByRUSDY(
+    uint256 _rUSDYAmount
+  ) public view returns (uint256) {
+    return (_rUSDYAmount * 1e18 * BPS_DENOMINATOR) / oracle.getPrice();
+  }
+```
 (Note: On Ethereum this is unlikely but this is meant for contracts going to be deployed on any compatible EVM chain many of which like Polygon, Optimism, Arbitrum are frequently reorganized.)
 
 ## Non-linear vs linear representation 
@@ -86,7 +95,7 @@ The graphical representation of the price of evolution of USDY over time in [REA
 ## Smaller periodic USDY appreciation
 The interest rate derived for each subsequent day based on the interest rate for the month presents kinks that is too abrupt around the end of the day and the beginning of the next day.
 
-Imagine two users [unwrapping their rUSDY tokens](https://github.com/code-423n4/2023-09-ondo/blob/main/contracts/usdy/rUSDY.sol#L449-L456) one second apart such that the user A did it at 23:59:59 and user B did it at 00:00:00. For a matter of a second difference, the user A ended up unfavorably burning a greater amount of shares due to a smaller denominator entailed on the return code line below: 
+Imagine two users [transferring their rUSDY tokens](https://github.com/code-423n4/2023-09-ondo/blob/main/contracts/usdy/rUSDY.sol#L468) one second apart such that the user A did it at 23:59:59 and user B did it at 00:00:00. For a matter of a second difference, the user A ended up unfavorably transferring a greater amount of shares due to a smaller denominator entailed on the return code line below: 
 
 https://github.com/code-423n4/2023-09-ondo/blob/main/contracts/usdy/rUSDY.sol#L388-L392
 
