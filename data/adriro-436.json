@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "adriro",
+  "risk": "3",
+  "title": "Bridged tokens could be lost if sender transfer concurrently from multiple source chains",
+  "issueId": 436,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/436"
+}
