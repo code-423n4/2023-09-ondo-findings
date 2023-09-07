@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "adriro",
+  "risk": "2",
+  "title": "Insufficient precision while deriving price in oracle may lead to innaccurate calculations",
+  "issueId": 449,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/449"
+}
