@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Hama",
+  "risk": "3",
+  "title": "Risk  of Token Get Stuck  in burnAndCallAxelar Function due  to  Use of  Same Chain ID",
+  "issueId": 397,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/397"
+}
