@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "kodyvim",
+  "risk": "2",
+  "title": "Missing `whenNotPaused` on approve",
+  "issueId": 529,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/529"
+}
