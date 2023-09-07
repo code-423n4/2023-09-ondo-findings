@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "mahdikarimi",
+  "risk": "3",
+  "title": "Cross-chain smart contract calls can revert but source chain tokens remain burnt and are not refunded",
+  "issueId": 382,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/382"
+}
