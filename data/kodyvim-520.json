@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "kodyvim",
+  "risk": "2",
+  "title": "Owner cannot rescueToken if blocklisted.",
+  "issueId": 520,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/520"
+}
