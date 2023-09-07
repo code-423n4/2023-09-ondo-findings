@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Team-Slayer",
+  "risk": "2",
+  "title": "Vulnerability: User's tokens can be Stolen If the Burn Role Get Compromised or Malicious. / Contract: rUSDY.sol  / Function: burn",
+  "issueId": 245,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/245"
+}
