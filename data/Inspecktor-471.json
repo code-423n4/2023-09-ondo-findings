@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Inspecktor",
+  "risk": "3",
+  "title": "Lack of an option in DestinationBridge.sol to cancel a transaction can lead to unwanted transactions",
+  "issueId": 471,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/471"
+}
