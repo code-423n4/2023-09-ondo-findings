@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "JP_Courses",
+  "risk": "2",
+  "title": "lack of address(0) check for oracle address",
+  "issueId": 548,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/548"
+}
