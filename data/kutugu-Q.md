@@ -4,6 +4,7 @@
 | ------ | ---------------------------------------------------------------------------------------- | ------------- |
 | [L-01] | setThresholds should prohibit equal amount                                               | Low           |
 | [L-02] | SourceBridge cannot share the same address on different chains                           | Low           |
+| [L-03] | DestinationBridge.execute does not check whether msg.sender is a legal approver          | Low           |
 | [N-01] | Upgradeable contracts should explicitly call the init function of the inherited contract | Non-Critical  |
 
 # Detailed Findings
@@ -126,6 +127,60 @@ POC:
 ## Recommendations
 
 srcChain should also participate in the hash calculation
+
+# [L-03] DestinationBridge.execute does not check whether msg.sender is a legal approver
+
+## Description
+
+```solidity
+  function _execute(
+    string calldata srcChain,
+    string calldata srcAddr,
+    bytes calldata payload
+  ) internal override whenNotPaused {
+    (bytes32 version, address srcSender, uint256 amt, uint256 nonce) = abi
+      .decode(payload, (bytes32, address, uint256, uint256));
+
+    if (version != VERSION) {
+      revert InvalidVersion();
+    }
+    if (chainToApprovedSender[srcChain] == bytes32(0)) {
+      revert ChainNotSupported();
+    }
+    if (chainToApprovedSender[srcChain] != keccak256(abi.encode(srcAddr))) {
+      revert SourceNotSupported();
+    }
+    if (isSpentNonce[chainToApprovedSender[srcChain]][nonce]) {
+      revert NonceSpent();
+    }
+
+    isSpentNonce[chainToApprovedSender[srcChain]][nonce] = true;
+
+    bytes32 txnHash = keccak256(payload);
+    txnHashToTransaction[txnHash] = Transaction(srcSender, amt);
+    _attachThreshold(amt, txnHash, srcChain);
+    // @audit not check approver here
+    _approve(txnHash);
+    _mintIfThresholdMet(txnHash);
+    emit MessageReceived(srcChain, srcSender, amt, nonce);
+  }
+
+  function approve(bytes32 txnHash) external {
+    // @audit check approver here
+    if (!approvers[msg.sender]) {
+      revert NotApprover();
+    }
+    _approve(txnHash);
+    _mintIfThresholdMet(txnHash);
+  }
+```
+
+DestinationBridge.execute does not check whether msg.sender is a legal approver, while approve checks.       
+So one of the approves can be any address, all of which are valid. And this question can be combined with another question to bypass the approve logic, you can check my other question: DestinationBridge.execute may lead to hash collision, causing DOS or bypassing the approve logic.       
+
+## Recommendations
+
+_execute should also check whether msg.sender is a legal approver
 
 # [N-01] Upgradeable contracts should explicitly call the init function of the inherited contract
 
