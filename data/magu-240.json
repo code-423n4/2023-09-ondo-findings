@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "magu",
+  "risk": "2",
+  "title": "The contract does not validate the addresses of the token, AxelarGateway, and allowlist",
+  "issueId": 240,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/240"
+}
