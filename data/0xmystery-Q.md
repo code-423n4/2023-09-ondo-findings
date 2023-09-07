@@ -150,3 +150,29 @@ https://github.com/code-423n4/2023-09-ondo/blob/main/contracts/usdy/rUSDY.sol#L5
 
     return totalShares;
 ```
+## Typo/grammatical mistakes
+Here's a grammatical mistake not found by the bot:
+
+https://github.com/code-423n4/2023-09-ondo/blob/main/contracts/bridge/DestinationBridge.sol#L252
+
+```diff
+-   *      and will thresholds corresponding to the params of this function. Passing
++   *      and will set thresholds corresponding to the params of this function. Passing
+```
+## CEI recommendation
+Here's an instance of check-effects-interaction practice not captured by the bot.
+
+Where possible, transfer the needed USDY amount from the caller prior to minting the equivalent amount of shares: 
+
+https://github.com/code-423n4/2023-09-ondo/blob/main/contracts/usdy/rUSDY.sol#L434-L440
+
+```diff
+  function wrap(uint256 _USDYAmount) external whenNotPaused {
+    require(_USDYAmount > 0, "rUSDY: can't wrap zero USDY tokens");
+-    _mintShares(msg.sender, _USDYAmount * BPS_DENOMINATOR);
+    usdy.transferFrom(msg.sender, address(this), _USDYAmount);
++    _mintShares(msg.sender, _USDYAmount * BPS_DENOMINATOR);
+    emit Transfer(address(0), msg.sender, getRUSDYByShares(_USDYAmount));
+    emit TransferShares(address(0), msg.sender, _USDYAmount);
+  }
+```
