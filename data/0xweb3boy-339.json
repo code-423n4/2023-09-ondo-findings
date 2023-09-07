@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xweb3boy",
+  "risk": "2",
+  "title": "Unable to transfer wrapped USDY  if oracle.getPrice() reverts",
+  "issueId": 339,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/339"
+}
