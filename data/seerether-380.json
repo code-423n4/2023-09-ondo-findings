@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "Updating closed ranges with overrideRange() causes incorrect prevRangeClosePrice. ",
+  "issueId": 380,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/380"
+}
