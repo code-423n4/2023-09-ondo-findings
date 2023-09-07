@@ -43,3 +43,9 @@ The codes should be changed as blow to verify if `numOfApprovers` is reasonable:
 	    emit ThresholdSet(srcChain, amounts, numOfApprovers);
 	  }
 
+3.Use the wrong value in event:
+https://github.com/code-423n4/2023-09-ondo/blob/main/contracts/usdy/rUSDY.sol#L438-L439
+`_USDYAmount * BPS_DENOMINATOR` should be used instead of `_USDYAmount`:
+
+    emit Transfer(address(0), msg.sender, getRUSDYByShares(_USDYAmount * BPS_DENOMINATOR));
+    emit TransferShares(address(0), msg.sender, _USDYAmount * BPS_DENOMINATOR);
