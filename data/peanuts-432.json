@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "peanuts",
+  "risk": "2",
+  "title": "The array of the number of approvals needed for a given threshold in DestinationBridge#setThresholds() does not need to be ordered which defies protocol logic",
+  "issueId": 432,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/432"
+}
