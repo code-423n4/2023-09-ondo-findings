@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Inspecktor",
+  "risk": "2",
+  "title": "A user with the BURNER_ROLE role should be able to burn rUSDY tokens from the balance of a blocked address",
+  "issueId": 488,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/488"
+}
