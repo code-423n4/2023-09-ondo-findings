@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "ladboy233",
+  "risk": "2",
+  "title": "balanceOf and transfer amount does not match in rUSDY.sol, breaking external integration",
+  "issueId": 343,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/343"
+}
