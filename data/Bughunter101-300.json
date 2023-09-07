@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Bughunter101",
+  "risk": "2",
+  "title": "`setThresholds()` should ensure that `chainToThresholds[srcChain][i - 1].numOfApprover < numOfApprovers[i]`",
+  "issueId": 300,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/300"
+}
