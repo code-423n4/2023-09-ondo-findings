@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "JayShreeRAM",
+  "risk": "3",
+  "title": "abi.encode() function does not support dynamic arrays in Solidity version 0.8.16 or earlier.",
+  "issueId": 438,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/438"
+}
