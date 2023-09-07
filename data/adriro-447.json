@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "adriro",
+  "risk": "2",
+  "title": "Oracle could potentially return an invalid zero price",
+  "issueId": 447,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/447"
+}
