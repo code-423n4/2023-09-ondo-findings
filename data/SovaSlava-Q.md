@@ -21,3 +21,7 @@ https://github.com/code-423n4/2023-09-ondo/blob/47d34d6d4a5303af5f46e907ac2292e6
 Q5 - Approver can't revoke his vote
 There is not opportunity revoke vote for tx in DestinationBridge.sol 
 https://github.com/code-423n4/2023-09-ondo/blob/47d34d6d4a5303af5f46e907ac2292e6a7745f6c/contracts/bridge/DestinationBridge.sol#L197
+
+Q6 - Insufficient verification of threshold amount in setThresholds().
+Function dont checks, that chainToThresholds[srcChain][i - 1].amount is equal to amounts[i]. If these values are equal, should be revert error - ThresholdsNotInAscendingOrder().
+https://github.com/code-423n4/2023-09-ondo/blob/47d34d6d4a5303af5f46e907ac2292e6a7745f6c/contracts/bridge/DestinationBridge.sol#L270
