@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "Removed approvers are not cleaned up from past approvals in this contract. Their past approvals still count even if they are no longer authorized.",
+  "issueId": 308,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/308"
+}
