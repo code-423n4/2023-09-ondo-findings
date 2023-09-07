@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xweb3boy",
+  "risk": "2",
+  "title": "Lack Of Return Value Check On the Oracle",
+  "issueId": 340,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/340"
+}
