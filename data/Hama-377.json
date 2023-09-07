@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Hama",
+  "risk": "3",
+  "title": "Unauthorized Token Burning and Inconsistent Reward in burn Function",
+  "issueId": 377,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/377"
+}
