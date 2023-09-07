@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "peanuts",
+  "risk": "2",
+  "title": "When owner burns rUSDY from an account, the USDY received should be sent to the account instead of the owner",
+  "issueId": 426,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/426"
+}
