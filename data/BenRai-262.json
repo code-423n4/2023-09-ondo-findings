@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "BenRai",
+  "risk": "3",
+  "title": "`rSUDY.approve` can be front run because it can be used even if the allowance is not set to 0",
+  "issueId": 262,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/262"
+}
