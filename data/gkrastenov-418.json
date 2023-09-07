@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "gkrastenov",
+  "risk": "2",
+  "title": "Some transactions may get stuck due to low fees",
+  "issueId": 418,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/418"
+}
