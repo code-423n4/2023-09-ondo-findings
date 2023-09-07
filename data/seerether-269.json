@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "blocked/sanctioned accounts can still approve other accounts to spend their tokens even though direct transfers are prevented",
+  "issueId": 269,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/269"
+}
