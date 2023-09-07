@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Hama",
+  "risk": "2",
+  "title": "Frontrunning Attack Vulnerability in Token Allowance Decreasing",
+  "issueId": 341,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/341"
+}
