@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "SovaSlava",
+  "risk": "2",
+  "title": "The user is not able to specify the deadline for voting on his transaction on the destination chain.",
+  "issueId": 420,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/420"
+}
