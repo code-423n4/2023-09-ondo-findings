@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xblackskull",
+  "risk": "2",
+  "title": "owner can bypass `amounts` and `numOfApprovers` in setThresholds()",
+  "issueId": 351,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/351"
+}
