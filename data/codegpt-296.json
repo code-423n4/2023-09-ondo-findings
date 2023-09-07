@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "codegpt",
+  "risk": "2",
+  "title": "Unchecked ERC-20 `transfer()`/`transferFrom()` Call",
+  "issueId": 296,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/296"
+}
