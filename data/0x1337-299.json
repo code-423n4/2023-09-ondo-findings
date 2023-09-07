@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0x1337",
+  "risk": "2",
+  "title": "Lack of Validation on Approver Threshold",
+  "issueId": 299,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/299"
+}
