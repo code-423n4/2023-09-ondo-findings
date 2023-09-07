@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Limbooo",
+  "risk": "2",
+  "title": "Unrecoverable Dust Shares Due to Lack of Minimal Constraints in `transferShares` Function",
+  "issueId": 378,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/378"
+}
