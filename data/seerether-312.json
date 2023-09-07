@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "The ordering of approve() and mintIfThresholdMet() could allow approving a transaction and minting tokens even if the threshold is not met. ",
+  "issueId": 312,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/312"
+}
