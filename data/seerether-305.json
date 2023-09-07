@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "The approve() and mintIfThresholdMet() functions are called separately. This could allow approving a transaction without minting tokens if the threshold is not yet met",
+  "issueId": 305,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/305"
+}
