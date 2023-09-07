@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "ItsNio",
+  "risk": "2",
+  "title": "`simulateRange()` reverts when `endTime` < `lastRangeEnd` and `blockTimeStamp` > `lastRangeEnd` in the queried range",
+  "issueId": 457,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/457"
+}
