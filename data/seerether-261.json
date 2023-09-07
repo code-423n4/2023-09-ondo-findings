@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "Vulnerability in transferFrom() related to updating the allowance after the transfer",
+  "issueId": 261,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/261"
+}
