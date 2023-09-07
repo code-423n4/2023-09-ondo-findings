@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "ast3ros",
+  "risk": "2",
+  "title": "The price will be stale if there is a gap between ranges",
+  "issueId": 248,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/248"
+}
