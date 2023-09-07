@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "ast3ros",
+  "risk": "2",
+  "title": "The execute transaction will revert if all threshold is removed by admin",
+  "issueId": 250,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/250"
+}
