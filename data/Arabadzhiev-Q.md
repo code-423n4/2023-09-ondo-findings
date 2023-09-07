@@ -33,7 +33,7 @@ https://github.com/code-423n4/2023-09-ondo/blob/47d34d6d4a5303af5f46e907ac2292e6
 
     * @dev This function will remove all previously set thresholds for a given chain
 -   *      and will thresholds corresponding to the params of this function. Passing
-+   *      and will set thresholds corresponding to the params of this function.   Passing
++   *      and will set thresholds corresponding to the params of this function. Passing
     *      in empty arrays will remove all thresholds for a given chain
     */
 
