@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "SovaSlava",
+  "risk": "3",
+  "title": "Tokens transferred with bridge can get lost if destination transaction can’t be executed",
+  "issueId": 412,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/412"
+}
