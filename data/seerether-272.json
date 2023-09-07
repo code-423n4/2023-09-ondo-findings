@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "seerether",
+  "risk": "3",
+  "title": "The burn function in the rUSDY contract only emits a TokensBurnt event and does not emit a Transfer event.",
+  "issueId": 272,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/272"
+}
