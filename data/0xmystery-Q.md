@@ -80,4 +80,24 @@ Depending on the outcome, if it ended up placing the transaction earlier than an
 
 (Note: On Ethereum this is unlikely but this is meant for contracts going to be deployed on any compatible EVM chain many of which like Polygon, Optimism, Arbitrum are frequently reorganized.)
 
- 
+## Non-linear vs linear representation 
+The graphical representation of the price of evolution of USDY over time in [README.md](https://github.com/code-423n4/2023-09-ondo) should be non-linear step wise instead of a continuous straight line plot to better portray the price appreciation via the daily interest set for the month. 
+
+## Smaller periodic USDY appreciation
+The interest rate derived for each subsequent day based on the interest rate for the month presents kinks that is too abrupt around the end of the day and the beginning of the next day.
+
+Imagine two users [unwrapping their rUSDY tokens](https://github.com/code-423n4/2023-09-ondo/blob/main/contracts/usdy/rUSDY.sol#L449-L456) one second apart such that the user A did it at 23:59:59 and user B did it at 00:00:00. For a matter of a second difference, the user A ended up unfavorably burning a greater amount of shares due to a smaller denominator entailed on the return code line below: 
+
+https://github.com/code-423n4/2023-09-ondo/blob/main/contracts/usdy/rUSDY.sol#L388-L392
+
+```solidity
+  function getSharesByRUSDY(
+    uint256 _rUSDYAmount
+  ) public view returns (uint256) {
+return (_rUSDYAmount * 1e18 * BPS_DENOMINATOR) / oracle.getPrice();
+  }
+```
+
+This could create imbalanced feelings where the user wished he/she did it seconds/minutes/... later.
+
+Consider reducing the daily interest appreciation model to a smaller periodic model to help circumvent the aforesaid situations. 
