@@ -1,4 +1,4 @@
-## if no threshold is being set for a specific amount of token and a chain , malicious user can bridge that amount from that chain 
+## if no threshold is being set for a specific amount of token and a chain , malicious user can bridge that amount from that chain instantly without needing any approval 
 
 let's break down the issue 
 payload is created by encoding VERSION , msg.sender , amount and nonce in source chain so if user use the same amount and same nonce that is not spent by another chain he can have the same payload . 
