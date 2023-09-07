@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "adriro",
+  "risk": "2",
+  "title": "Approver could accidentally DoS their approval by executing the bridged message",
+  "issueId": 441,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/441"
+}
