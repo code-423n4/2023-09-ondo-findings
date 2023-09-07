@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "SUPERMAN_I4G",
+  "risk": "2",
+  "title": " abi.decode Split Across Lines May Trigger Unintended External Calls",
+  "issueId": 357,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/357"
+}
