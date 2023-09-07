@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xRobsol",
+  "risk": "3",
+  "title": "Lack of Post-Allowance Verification Before Token Minting",
+  "issueId": 512,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/512"
+}
