@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "peanuts",
+  "risk": "2",
+  "title": "Dust amount stuck in rUSDY.sol when wrapping and unwrapping part of the full amounts",
+  "issueId": 425,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/425"
+}
