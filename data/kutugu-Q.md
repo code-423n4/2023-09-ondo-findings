@@ -176,7 +176,8 @@ srcChain should also participate in the hash calculation
 ```
 
 DestinationBridge.execute does not check whether msg.sender is a legal approver, while approve checks.       
-So one of the approves can be any address, all of which are valid. And this question can be combined with another question to bypass the approve logic, you can check my other question: DestinationBridge.execute may lead to hash collision, causing DOS or bypassing the approve logic.       
+So one of the approves can be any address, all of which are valid. The message with a threshold value of 1 can be directly executed by any address without being restricted by the approver network.       
+And this question can be combined with another question to bypass the approve logic, you can check: DestinationBridge.execute may lead to hash collision, causing DOS or bypassing the approve logic.       
 
 ## Recommendations
 
