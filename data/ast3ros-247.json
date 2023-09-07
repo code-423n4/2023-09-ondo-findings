@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "ast3ros",
+  "risk": "3",
+  "title": "Transaction failed because of nonce collision",
+  "issueId": 247,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/247"
+}
