@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "pep7siup",
+  "risk": "2",
+  "title": "Missing ordered & zero checks in setThresholds causing `DestinationBridge.execute` to revert",
+  "issueId": 452,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/452"
+}
