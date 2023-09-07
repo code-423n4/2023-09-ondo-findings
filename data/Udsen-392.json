@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Udsen",
+  "risk": "2",
+  "title": "`RWADynamicOracle.simulateRange` COULD PROVIDE WRONG DERIVED PRICES IF INVALID `endTime` VALUE IS PASSED IN",
+  "issueId": 392,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/392"
+}
