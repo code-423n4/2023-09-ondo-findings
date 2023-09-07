@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Udsen",
+  "risk": "3",
+  "title": "TWO DIFFERENT TRANSACTIONS CAN RESULT IN THE SAME `txnHash` VALUE THUS BREAKING THE APPROVAL PROCESS OF TRANSACTION MINTING",
+  "issueId": 391,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/391"
+}
