@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "Bughunter101",
+  "risk": "2",
+  "title": "In `setThresholds()`,the size of the array should be checked, otherwise it may lead to DoS execution",
+  "issueId": 298,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/298"
+}
