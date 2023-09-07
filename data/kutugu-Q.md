@@ -3,6 +3,7 @@
 | ID     | Title                                                                                    | Severity      |
 | ------ | ---------------------------------------------------------------------------------------- | ------------- |
 | [L-01] | setThresholds should prohibit equal amount                                               | Low           |
+| [L-02] | SourceBridge cannot share the same address on different chains                           | Low           |
 | [N-01] | Upgradeable contracts should explicitly call the init function of the inherited contract | Non-Critical  |
 
 # Detailed Findings
@@ -61,11 +62,70 @@
 ```
 
 At present, `setThresholds` allows the amount to be equal, but in `_attachThreshold`, the equality will not be considered when looking for the threshold, and only the first subscript that meets the conditions will be taken.    
-This may not meet the expectations of thresholds. Under strict conditions, the maximum threshold should be taken instead of the first threshold.     
+This may not meet the expectations of thresholds. Under strict conditions, the maximum threshold should be taken instead of the minimum threshold.     
 
 ## Recommendations
 
 setThresholds should prohibit equal amount
+
+# [L-02] SourceBridge cannot share the same address on different chains
+
+## Description
+
+```solidity
+  function addChainSupport(
+    string calldata srcChain,
+    string calldata srcContractAddress
+  ) external onlyOwner {
+    chainToApprovedSender[srcChain] = keccak256(abi.encode(srcContractAddress));
+    emit ChainIdSupported(srcChain, srcContractAddress);
+  }
+
+  // @audit may revert here
+  if (isSpentNonce[chainToApprovedSender[srcChain]][nonce]) {
+    revert NonceSpent();
+  }
+```
+
+In `DestinationBridge`, `chainToApprovedSender` is taken only from `srcContractAddress` and does not include `srcChain`.   
+So if SourceBridge use the same address on different chains, `isSpentNonce` will conflict, blocking message execution on the other chain.       
+POC:       
+```solidity
+  function testTwoChainIsSpentNonceConflict() public {
+    bytes memory payload = abi.encode(VERSION, alice, 100e18, 1);
+
+    // arbitrum
+    bytes32 cmdId = bytes32(
+      0x9991faa1f435675159ffae64b66d7ecfdb55c29755869a18db8497b4392347e0
+    );
+    string memory srcChain = "arbitrum";
+    string memory srcAddress = "0xce16F69375520ab01377ce7B88f5BA8C48F8D666";
+    approve_message(
+      cmdId,
+      srcChain,
+      srcAddress,
+      address(destinationBridge),
+      keccak256(payload)
+    );
+    destinationBridge.execute(cmdId, srcChain, srcAddress, payload);
+
+    // optimism
+    srcChain = "optimism";
+    approve_message(
+      cmdId,
+      srcChain,
+      srcAddress,
+      address(destinationBridge),
+      keccak256(payload)
+    );
+    vm.expectRevert(DestinationBridge.NonceSpent.selector);
+    destinationBridge.execute(cmdId, srcChain, srcAddress, payload);
+  }
+```
+
+## Recommendations
+
+srcChain should also participate in the hash calculation
 
 # [N-01] Upgradeable contracts should explicitly call the init function of the inherited contract
 
