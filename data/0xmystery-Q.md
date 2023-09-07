@@ -97,7 +97,47 @@ https://github.com/code-423n4/2023-09-ondo/blob/main/contracts/usdy/rUSDY.sol#L3
 return (_rUSDYAmount * 1e18 * BPS_DENOMINATOR) / oracle.getPrice();
   }
 ```
-
 This could create imbalanced feelings where the user wished he/she did it seconds/minutes/... later.
 
 Consider reducing the daily interest appreciation model to a smaller periodic model to help circumvent the aforesaid situations. 
+
+## Incorrect arguments associated `getRUSDYByShares()` in the function logic of `_burnShares()`
+The `preRebaseTokenAmount` and `postRebaseTokenAmount` values will always be identical, which doesn't provide any meaningful information to the user about the impact of the burn operation on the value of their shares.
+
+Consider having the affected codes refactored as follows:
+
+https://github.com/code-423n4/2023-09-ondo/blob/main/contracts/usdy/rUSDY.sol#L575-L601
+
+```diff
+  function _burnShares(
+    address _account,
+    uint256 _sharesAmount
+  ) internal whenNotPaused returns (uint256) {
+    require(_account != address(0), "BURN_FROM_THE_ZERO_ADDRESS");
+
+    _beforeTokenTransfer(_account, address(0), _sharesAmount);
+
+    uint256 accountShares = shares[_account];
+    require(_sharesAmount <= accountShares, "BURN_AMOUNT_EXCEEDS_BALANCE");
+
+-    uint256 preRebaseTokenAmount = getRUSDYByShares(_sharesAmount);
++    uint256 preRebaseTokenAmount = getRUSDYByShares(accountShares);
+
+    totalShares -= _sharesAmount;
+
++    uint256 postAccountShares = accountShares - _sharesAmount;
+-    shares[_account] = accountShares - _sharesAmount;
++    shares[_account] = postAccountShares;
+
+-    uint256 postRebaseTokenAmount = getRUSDYByShares(_sharesAmount);
++    uint256 postRebaseTokenAmount = getRUSDYByShares(postAccountShares);
+
+    emit SharesBurnt(
+      _account,
+      preRebaseTokenAmount,
+      postRebaseTokenAmount,
+      _sharesAmount
+    );
+
+    return totalShares;
+```
