@@ -38,7 +38,7 @@ Bridged messages get an "automatic" approval while the message is being executed
 
 This implies that "real" approvals would require setting a threshold with a `numberOfApprovalsNeeded` of at least two. 
 
-This brings a lot of unnecessary confusing semantics to the approvals scheme and could potentially lead to errors in configuration setting that would allow messages to go through automatically when actually they are expected to be approved. 
+This brings a lot of unnecessary confusing semantics to the approvals scheme and could potentially lead to errors in configuration settings that would allow messages to go through automatically when actually they are expected to be approved. 
 
 It is recommended to remove this automatic approval and treat each approval as an explicit approval action of the set of enabled approvers.
 
