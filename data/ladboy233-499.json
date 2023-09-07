@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "ladboy233",
+  "risk": "2",
+  "title": "Loss of token if a smart contract perform a cross-chain transfer using source bridge",
+  "issueId": 499,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/499"
+}
