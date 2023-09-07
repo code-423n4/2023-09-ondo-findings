@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "pep7siup",
+  "risk": "3",
+  "title": "`txnHash` collision from different source chains would override the under-approval-threshold transaction, causing loss of funds",
+  "issueId": 433,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/433"
+}
