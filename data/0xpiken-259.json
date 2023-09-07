@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xpiken",
+  "risk": "3",
+  "title": "Admin can burn user's rUSDY for USDY and withdraw it without user's permission",
+  "issueId": 259,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/259"
+}
