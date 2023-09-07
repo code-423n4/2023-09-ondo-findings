@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xmystery",
+  "risk": "2",
+  "title": "DOS on DestinationBridge._execute arising from an intended design in DestinationBridge.setThresholds",
+  "issueId": 427,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/427"
+}
