@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "jasonxiale",
+  "risk": "2",
+  "title": "# DestinationBridge.setThresholds should add condition check for `numberOfApprovalsNeeded` ",
+  "issueId": 325,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/325"
+}
