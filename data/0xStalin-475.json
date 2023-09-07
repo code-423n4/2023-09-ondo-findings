@@ -1,0 +1,8 @@
+{
+  "contest": 281,
+  "handle": "0xStalin",
+  "risk": "2",
+  "title": "Users can lost their USDY tokens in the Source Chain if something fails during the crosschain communication because there is not a validation mechanism to confirm that tokens were minted in the Destination Chain",
+  "issueId": 475,
+  "issueUrl": "https://github.com/code-423n4/2023-09-ondo-findings/issues/475"
+}
